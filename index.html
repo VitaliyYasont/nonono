@@ -1,48 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-        <div>
-            <img src="assets/images/main-image.png" alt="main-image">
-            <img src="assets/images/image-preview2.png" alt="preview-image">
-            <img src="assets/images/image-preview.png" alt="preview-image">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Awesome markup</title>
+  </head>
+  <body>
+    <section>
+      <div class="card">
+        <div class="product-img-block">
+          <img
+            class="main-img"
+            src="assets/images/main-image.png"
+            alt="main-image"
+          />
+          <div>
+            <img
+              class="preview-img"
+              src="assets/images/image-preview2.png"
+              alt="preview-image"
+            />
+          </div>
+          <div>
+            <img
+              class="preview-img"
+              src="assets/images/image-preview.png"
+              alt="preview-image"
+            />
+          </div>
         </div>
-    <div>
-        <h2>Fluted Contrast</h2>
-            <span>Mug / 33 cl</span>
-                <p>Fluted Contrast represents the perfect fusion between<br>
-                the aesthetic and the functional. The design is elegant<br>
-                and modern, created out of a deep respect for<br> 
-                Royal British history and traditions
-    </p>
-    </div>
-    <div>
-        <h2>Color options</h2>
+
+        <div class="product-info-block">
+          <h1>Fluted Contrast</h1>
+          <span>Mug / 33 cl</span> class="circl"
+          <p>
+            Fluted Contrast represents the perfect fusion between the aesthetic
+            and the functional. The design is elegant and modern, created out of
+            a deep respect for Royal British history and traditions
+          </p>
+          <div>
+            <h2>Color options</h2>
             <ul>
-                <li><button></button></li>
-                <li><button></button></li>
-                <li><button></button></li>
-                <li><button></button></li>
-                <li><button></button></li>
+              <li class="selected">
+                <div class="circle blue"></div>
+              </li>
+              <li class="selected">
+                <div class="circle green"></div>
+              </li>
+              <li class="selected">
+                <div class="circle red"></div>
+              </li>
+              <li class="selected">
+                <div class="circle black"></div>
+              </li>
+              <li class="selected">
+                <div class="circle yellow"></div>
+              </li>
             </ul>
+          </div>
+          <div>
+            <div>
+              <h2>Quantity</h2>
+              <select class="quantity" name="quantity" id="quantity">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+            </div>
+            <div>
+              <h2>Price</h2>
+              <span>eur 39,00</span>
+            </div>
+          </div>
+          <button class="button">Add To Basket</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+
+<!--<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <img src="assets/images/main-image.png" alt="main-image" />
+      <div>
+        <img src="assets/images/image-preview2.png" alt="preview-image" />
+      </div>
+      <div>
+        <img src="assets/images/image-preview.png" alt="preview-image" />
+      </div>
     </div>
     <div>
-        <h2>Quantity</h2>
-            <select>
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-            </select>
+      <h2>Fluted Contrast</h2>
+      <span>Mug / 33 cl</span>
+      <p>
+        Fluted Contrast represents the perfect fusion between<br />
+        the aesthetic and the functional. The design is elegant<br />
+        and modern, created out of a deep respect for<br />
+        Royal British history and traditions
+      </p>
     </div>
     <div>
-        <h2>Price</h2>
-        <span>eur 39,00</span>
+      <h2>Color options</h2>
+      <ul>
+        <li><button></button></li>
+        <li><button></button></li>
+        <li><button></button></li>
+        <li><button></button></li>
+        <li><button></button></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Quantity</h2>
+      <select>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+      </select>
+    </div>
+    <div>
+      <h2>Price</h2>
+      <span>eur 39,00</span>
     </div>
     <div><button>Add To Basket</button></div>
-</body>
+  </body>
 </html>
+-->
