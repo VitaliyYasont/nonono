@@ -16,6 +16,20 @@ section {
     height: 800px;
     box-shadow: 20px 20px 40px 0 rgba(81, 91, 117, 0.25);
     background: #fff;
-    padding: 60px 0 70px 0;
+    padding: 60px 0 70px;
 }
 
+.product-img-block {
+    width: 540px;
+    border-right: 2px solid rgba(20, 20, 20, 0.15);
+}
+
+.preview-img {
+    width: 80px;
+    height: 80px;
+    background: #fff;
+}
+
+.selected {
+    box-shadow: 8px 8px 16px 0 rgba(81, 91, 117, 0.25);
+}
